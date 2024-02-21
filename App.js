@@ -5,8 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={[styles.numero, {color:'black'}]}>03</Text>
-    <Text style={[styles.sala, {backgroundColor:'pink'}]}>I2HN</Text>
+    <Text style={[styles.sala, {backgroundColor:'pink'}]}>07</Text>
     <Text style={[styles.texto, {color:'blue'}]}>Ana Julia Antunes Cardoso</Text>
+    <Text style={[styles.data, {backgroundColor:'purple'}]}>08-12-23</Text>
    </View>
   );
 }
@@ -38,5 +39,11 @@ const styles = StyleSheet.create({
   sala:{
     fontSize: 20,
   },
+  data: {
+    fontSize: 40,
+    borderBottomColor: 'black',
+    borderBottomWidth: 2,
+    marginBottom: 30,
+  }
 
   })
